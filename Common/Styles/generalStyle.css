@@ -1,0 +1,67 @@
+/* Horizontal Nav Bar */
+.horNav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: hsl(0,0%,20%);
+}
+
+.horNav li {
+	float: left;
+	display: inline;
+}
+
+.horNav li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change the link color to hsl(0,0%,20%) on hover */
+.horNav li a:hover{
+	background-color: hsl(0,0%,50%);
+}
+
+/* Change color of active link for UI/feedback */
+.horNav li a:active {
+	color: hsl(0,0%,20%);
+    background-color: hsl(0,0%,80%);
+}
+
+.horNav {
+	text-align:center;
+}
+
+/* Vertical Nav Bar */
+.vertNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 8.33%;
+    background-color: #f1f1f1;
+}
+
+.vertNav li {
+	text-align: center;
+}
+
+.vertNav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+.vertNav li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.vertNav a:active{
+	background-color: red;
+	color: blue;
+}
